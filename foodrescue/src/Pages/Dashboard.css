@@ -1,0 +1,23 @@
+/* Dashboard.css */
+.dashboard-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #e9c46a;
+  }
+  
+  .dashboard-title {
+    font-size: 3em;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    font-size: 1.2em;
+    color: #264653;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

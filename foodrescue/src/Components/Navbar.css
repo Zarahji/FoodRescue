@@ -1,0 +1,34 @@
+/* src/Components/Navbar.css */
+.navbar-logo {
+    width: 120px;
+    height: auto;
+    display: block;
+  }
+.navbar {
+    background-color: #2a9d8f;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+  }
+  
+  .navbar-list li {
+    font-size: 1.2em;
+  }
+  
+  .navbar-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar-list li a:hover {
+    text-decoration: underline;
+  }
+  
