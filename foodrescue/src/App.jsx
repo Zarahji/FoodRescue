@@ -1,21 +1,28 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Pages/Home';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import HomePage from './Components/HomePage';
+import Navbar from './Components/Navbar';
 import Dashboard from './Pages/Dashboard';
 import Donate from './Pages/Donate';
 import Inventory from './Pages/Inventory';
-import Navbar from './Components/Navbar';  // Import Navbar
+import PickupScheduler from './Pages/PickupScheduler';
+import Notification from './Pages/Notification';
 
 function App() {
   return (
     <Router>
-      <Navbar /> {/* Make sure Navbar is used here */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/donate" element={<Donate />} />
-        <Route path="/inventory" element={<Inventory />} />
-      </Routes>
+      <Navbar />
+      <div>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          {/* Other routes */}
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/inventory" element={<Inventory />} />
+          <Route path="/pickup-scheduler" element={<PickupScheduler />} />
+          <Route path="/notifications" element={<Notification />} />
+        </Routes>
+      </div>
     </Router>
   );
 }

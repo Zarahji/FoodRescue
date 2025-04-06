@@ -1,4 +1,3 @@
-// src/Pages/Dashboard.jsx
 import React, { useState } from 'react';
 import './Dashboard.css';  // Import styles
 

@@ -1,29 +1,30 @@
-/* Home.css */
+/* HomePage.css */
 .home-container {
-    text-align: center;
-    padding: 50px;
-    background-color: #f4f4f9;
+    Optional: Styles for the overall page container
   }
   
-  .home-title {
-    font-size: 3em;
-    color: #2a9d8f;
+  .hero-section {
+    background-size: cover;
+    background-position: center;
+    color: white; /* Or your desired text color */
+    padding: 100px 50px; /* Adjust padding as needed */
+    text-align: center;
+    position: relative; /* For potential overlay or positioning */
+  }
+  
+  .hero-content {
+    max-width: 800px; /* Adjust as needed */
+    margin: 20 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem; /* Adjust font size */
     margin-bottom: 20px;
   }
   
-  .home-description {
-    font-size: 1.2em;
-    color: #264653;
-    margin-bottom: 30px;
+  .hero-content p {
+    font-size: 1.1rem; /* Adjust font size */
+    margin-bottom: 30px; /* You might adjust this value */
   }
   
-  .link {
-    font-size: 1.2em;
-    color: #e76f51;
-    text-decoration: none;
-  }
-  
-  .link:hover {
-    text-decoration: underline;
-  }
-  
+  /* You can remove the styles for .get-started-button if you no longer need them */
